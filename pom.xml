@@ -31,4 +31,11 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <defaultGoal>compile</defaultGoal>
+        <sourceDirectory>src</sourceDirectory>
+        <outputDirectory>bin</outputDirectory>
+        <finalName>${project.artifactId}-${project.version}</finalName>
+    </build>
+
 </project>
